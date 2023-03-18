@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-import Rough from "./pages/kattar";
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import {
@@ -110,7 +109,6 @@ const App = () => {
                 <Route path="/color-mapping" element={<ColorMapping />} />
                 <Route path="/pyramid" element={<Pyramid />} />
                 <Route path="/stacked" element={<Stacked />} />
-                <Route path="/rough" element={<Rough />} />
               </Routes>
             </div>
             <Footer />
